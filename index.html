@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
     <title>Document</title>
 </head>
 <body>
+  <header class="Head">
     
+    <nav>
+        <div id="div1">
+          <h1><a href=""><span id="sp1">Ramen</span>.kuy</a></h1>
+        </div>
+
+
+          <div id="div2">
+                  <ul >
+                    <li><a href="">Home</a></li>
+                    <li><a href="">How to Order</a></li>
+                    <li><a href="">Our Menu</a></li>
+                    <li><a href="">Our Recipes</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Log in</a></li>
+                    <li id="Sub"><a href="" class="Sub">Subscribe</a></li>
+                  </ul>
+          </div>
+    </nav>
+    <div id="maindiv2">
+      <div id="div3">
+        <h1>Delicious Food &<br>Recipes For Your Family</h1>
+        <p>Id cursus metus aliquam eleifend mi in nulla posuere. <br> Lorem faucibus vitae aliquet nec ullamcorper sit.</p>
+        <div id="divin1">
+          <button>Order now</button>
+          <button>Join resseler</button>
+        </div>
+      </div>
+    </div>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img3.png" alt=""></div>
+        <div class="swiper-slide"><img src="img2.png" alt=""></div>
+        <div class="swiper-slide"><img src="img1.png" alt=""></div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    
+
+  </header>
+
+  <script src="main.js"></script>
 </body>
 </html>
