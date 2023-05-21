@@ -1,4 +1,3 @@
-
 #div1{
     margin-left: 90px;
 }
@@ -43,7 +42,7 @@ a{
     text-decoration: none;
     color: black;
 }
-ul{
+.ul1{
     display: flex;
 }
 #divin1{
@@ -82,27 +81,31 @@ ul{
 }
 .OrderButton{
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 24px;
-gap: 10px;
-width: 122px;
-height: 41px;
-background: #FF4A22;
-border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+    width: 122px;
+    height: 41px;
+    background: #FF4A22;
+    border-radius: 20px;
+    color: white;
+    border: none;
 }
 .JoinButton{
     display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 24px;
-gap: 10px;
-width: 133px;
-height: 41px;
-background: rgba(255, 74, 34, 0.15);
-border-radius: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 10px;
+    width: 133px;
+    height: 41px;
+    background: rgba(255, 74, 34, 0.15);
+    border-radius: 20px;
+    color: white;
+    border: none;
 }
 #div3{
     margin-top: 60px;
@@ -273,4 +276,96 @@ color: rgba(51, 51, 51, 0.4);
     justify-content: space-between;
     margin-top: 120px;
     margin-left: 90px;
+}
+
+.im{
+    width: 350px;
+    height: 400px;
+}
+.swiper{
+    float: left;
+    margin-top: 40px;
+}
+.swiper-button-prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.3);
+    color: white;
+}
+.swiper-button-next{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.3);
+    color: white;
+}
+.recipeDiv{
+    margin-left: 130px;
+}
+.imdiv{
+    margin-top: 15px;
+}
+#recdivin2{
+    display: flex;
+}
+#infodiv{
+    margin-left: 30px;
+}
+#vec2img{
+    margin-left: 15px;
+}
+.ul2{
+    margin-left: -65px;
+    margin-top: -10px;
+    color: #333333CC;
+}
+#comdiv{
+    display: flex;
+}
+#divin2{
+    margin-top: 18px;
+    color: #333333CC;
+    
+}
+#divin3{
+    margin-top: 28px;
+    color: #333333CC;
+}
+#divin4{
+    margin-top: 38px;
+    color: #333333CC;
+}
+.mainfoot{
+    background-color: #FF4A22;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+}
+.footdiv1{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.footdiv2{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footdiv3{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.footdiv4{
+    margin-top: 60px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+ 
+}
+#li2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#li3{
+    margin-top: 20px;
 }
