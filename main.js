@@ -23,3 +23,6 @@ const swiper1 = new Swiper('.swiper', {
 
 
 });
+function Alert(){
+  Alert("this is cooking and  delivery website")
+}
