@@ -1,4 +1,3 @@
-login style
 
 *{
     margin: 0;
@@ -13,7 +12,7 @@ login style
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(wp9151423-dessert-food-4k-wallpapers\ \(1\).jpg);
+    background-image: url(img/wp9151423-dessert-food-4k-wallpapers.jpg);
     background-size: cover;
     column-gap: 30px;
 }
@@ -82,13 +81,12 @@ form{
 }
 .field button{
     color: #fff;
-    background-color: #0171d3;
+    background-color: #FF4A22;
+    ;
     transition: all 0.3s ease;
     cursor: pointer;
 }
-.field button:hover{
-    background-color: #016dcb;
-}
+
 .form-link{
     text-align: center;
     margin-top: 10px;
@@ -100,7 +98,7 @@ form{
     color: rgb(167, 167, 167);
 }
 .form a{
-    color: #0171d3;
+    color: #FF4A22;
     text-decoration: none;
 }
 .form-content a:hover{
@@ -122,25 +120,8 @@ form{
     color: #b2b0b0;
     padding: 0 15px;
 }
-.media-options a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-a.facebook{
-    color: white;
-    background-color: #4267b2;
-}
-a.facebook .facebook-icon{
-    height: 18px;
-    width: 18px;
-    color: #0171d3;
-    font-size: 20px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
+#Hbut{
+    
 }
 
 @media screen and (max-width: 400px) {
