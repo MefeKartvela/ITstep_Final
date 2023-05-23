@@ -1,16 +1,11 @@
 #div1{
     margin-left: 90px;
 }
-#div2{
-    margin-right: 110px;
-}
 .maindiv{
 display: flex;
 flex-direction: column;
 }
-#home{
-    color: #FF4A22;
-}
+
 nav{
     display: flex;
     
@@ -24,13 +19,13 @@ nav{
 }
 li{
     list-style-type: none;
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: large;
 }
 #Sub{
     border: 1px solid #FF4A22;
-    
-    padding: 10px 20px;
+    width: 150px;
+    height: 40px;
     text-align: center;
     border-radius: 20px;
     cursor: pointer;
@@ -59,7 +54,7 @@ a{
     width: 301px;
     height:401px;
     border-radius:10px;
-    margin-right: 150px;
+    margin-right: 190px;
   }
 .img1{
     width:300px;
@@ -84,10 +79,9 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 24px;
     gap: 10px;
-    width: 122px;
-    height: 41px;
+    width: 130px;
+    height: 40px;
     background: #FF4A22;
     border-radius: 20px;
     color: white;
@@ -98,10 +92,9 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px 24px;
     gap: 10px;
-    width: 133px;
-    height: 41px;
+    width: 130px;
+    height: 40px;
     background: rgba(255, 74, 34, 0.15);
     border-radius: 20px;
     color: white;
@@ -286,6 +279,9 @@ color: rgba(51, 51, 51, 0.4);
     float: left;
     margin-top: 40px;
 }
+.swiper-slide{
+    background-size: cover;
+}
 .swiper-button-prev{
     width: 60px;
     height: 60px;
@@ -301,7 +297,10 @@ color: rgba(51, 51, 51, 0.4);
     color: white;
 }
 .recipeDiv{
-    margin-left: 130px;
+    margin-left: 100px;
+    box-shadow: 0px 15px 30px rgba(224, 224, 236, 0.8);
+    border-radius: 10px;
+    width: 80%;
 }
 .imdiv{
     margin-top: 15px;
@@ -369,3 +368,311 @@ color: rgba(51, 51, 51, 0.4);
 #li3{
     margin-top: 20px;
 }
+#smallnav{
+    display:none ;
+    text-align: center;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    width: 300px;
+    background: rgb(56, 55, 55);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+#navbarsmallm{
+    display: none;
+    float: right;
+}
+.mainfoot{
+    margin-top: 115px;
+}
+#ul{
+    color: white;
+}
+#ul1{
+    color: white;
+}
+.footdiv2 a{
+    color: white;
+}
+.footdiv3 a{
+    color: white;
+}
+#bars{
+    display: none;
+}
+.infodiv{
+    display: none;
+}
+
+
+@media (max-width: 980px) {
+    .maindiv {
+        width: 90%;
+    }
+    
+    #maindiv2 {
+        margin-left: 50px;
+    }
+
+@media (max-width: 1000px) {
+    
+    #div2{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    #infodiv{
+        display: none;
+    }
+    .infodiv{
+        display: block;
+    }
+
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sp1 {
+        font-size: 24px;
+    }
+
+    #div1 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .ul1 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    #divin1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #maindiv2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .swiper {
+        margin-right: 0;
+        justify-content: center;
+    }
+
+    .OrderButton,
+    .JoinButton {
+        width: 160px;
+    }
+
+    .maindiv3 {
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .titA {
+        margin-right: 0;
+    }
+
+    .Pcard {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .Phead {
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #info {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    #img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #info1 {
+        width: 100%;
+        height: auto;
+    }
+
+    #numbers {
+        text-align: center;
+    }
+
+    .Pbut1 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .pcard {
+        margin-left: 0;
+    }
+
+    .h {
+        text-align: center;
+    }
+
+    .order {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .maindiv4 {
+        margin-top: 120px;
+    }
+
+    #divin4m {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .im {
+        width: 100%;
+        height: auto;
+    }
+
+    .divtitle5 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0;
+    }
+
+    .swiper {
+        margin-top: 20px;
+    }
+
+    .recipeDiv {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imdiv {
+        margin-top: 20px;
+    }
+
+    #recdivin2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #infodiv {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    #vec2img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .ul2 {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #comdiv {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #divin2 {
+        margin-top: 20px;
+    }
+
+    #divin3 {
+        margin-top: 20px;
+    }
+
+    #divin4 {
+        margin-top: 20px;
+    }
+
+    .mainfoot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footdiv1 {
+        margin-left: 0;
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .footdiv2 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .footdiv3 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .footdiv4 {
+        margin-top: 40px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    #li2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    #li3 {
+        margin-top: 20px;
+    }
+
+   
+}
+@media (max-width: 480px) {
+    .maindiv {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #maindiv2 {
+        margin-left: 10px;
+    }
+}
+
+
