@@ -422,7 +422,9 @@ color: rgba(51, 51, 51, 0.4);
     }
 
 @media (max-width: 1000px) {
-
+.swiper{
+    display: none;
+    }
     .recipeDiv {
         width: 90%;
         margin-left: 5%;
