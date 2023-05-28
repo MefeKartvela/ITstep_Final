@@ -412,7 +412,165 @@ color: rgba(51, 51, 51, 0.4);
 .infodiv{
     display: none;
 }
+@media (max-width: 992px) {
+    .maindiv2 {
+        flex-direction: column;
+    }
 
+    .maindiv3 {
+        flex-direction: column;
+    }
+
+    .maindiv4 {
+        flex-direction: column;
+    }
+
+    .recipeDiv {
+        flex-direction: column;
+    }
+
+    .mainfoot {
+        flex-direction: column;
+    }
+    .cards {
+        flex-direction: column;
+        margin-left: -50px;
+      }
+    }
+
+
+@media (max-width: 768px) {
+    .maindiv {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .nav {
+        margin-top: 15px;
+    }
+
+    li {
+        margin-top: 8px;
+    }
+
+    .maindiv2 {
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .swiper {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .swiper-slide {
+        width: 100%;
+    }
+
+    .maindiv3 {
+        margin-top: 80px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .titA {
+        margin-right: 15px;
+    }
+
+    .pcard {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    .maindiv4 {
+        margin-top: 120px;
+    }
+
+    #divin4m {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .divtitle5 {
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .im {
+        width: 100%;
+        height: auto;
+    }
+
+    .recipeDiv {
+        width: 90%;
+        margin-left: 5%;
+      }
+
+    #recdivin2 {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #recdivin2 h3,
+    #recdivin2 p,
+    #price {
+        text-align: center;
+    }
+    #recdivin2 {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+    #vec2img {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .mainfoot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footdiv1 {
+        margin-top: 40px;
+    }
+
+    .footdiv2,
+    .footdiv3,
+    .footdiv4 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .footdiv4 {
+        margin-bottom: 40px;
+      }
+
+    .footdiv2 a,
+    .footdiv3 a {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .cards {
+        flex-direction: column;
+        margin-left: 0;
+      }
+      .imgdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 20px;
+      }
+      .imgdiv img {
+        max-width: 100%;
+        height: auto;
+      }
+}
 @media (max-width: 980px) {
     .maindiv {
         width: 90%;
@@ -669,14 +827,4 @@ color: rgba(51, 51, 51, 0.4);
 
    
 }
-@media (max-width: 480px) {
-    .maindiv {
-        width: 100%;
-        padding: 10px;
-    }
-    
-    #maindiv2 {
-        margin-left: 10px;
-    }
 
-}
