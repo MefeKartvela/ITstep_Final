@@ -278,9 +278,11 @@ color: rgba(51, 51, 51, 0.4);
 .swiper{
     float: left;
     margin-top: 40px;
+    
 }
 .swiper-slide{
     background-size: cover;
+    color: #FF4A22;
 }
 .swiper-button-prev{
     width: 60px;
@@ -376,7 +378,7 @@ color: rgba(51, 51, 51, 0.4);
     top: 60px;
     width: 300px;
     background: rgb(56, 55, 55);
-    backdrop-filter: blur(15px);
+    
     border-radius: 10px;
     overflow: hidden;
     justify-content: center;
@@ -412,6 +414,7 @@ color: rgba(51, 51, 51, 0.4);
 .infodiv{
     display: none;
 }
+
 @media (max-width: 980px) {
     .maindiv {
         width: 90%;
@@ -422,9 +425,7 @@ color: rgba(51, 51, 51, 0.4);
     }
 
 @media (max-width: 1000px) {
-.swiper{
-    display: none;
-    }
+
     .recipeDiv {
         width: 90%;
         margin-left: 5%;
@@ -454,7 +455,9 @@ color: rgba(51, 51, 51, 0.4);
 
     
     #div2{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #bars{
         display: block;
@@ -699,3 +702,16 @@ color: rgba(51, 51, 51, 0.4);
     display: none;
    }
 }
+@media (max-width: 480px) {
+    .maindiv {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #maindiv2 {
+        margin-left: 10px;
+    }
+
+}
+
+
