@@ -35,6 +35,36 @@ const product = [
         title: 'Dark Chocolate Cake',
         price: 100,
     },
+    {
+        id: 6,
+        image: 'img/img1.png',
+        title: 'Tart',
+        price: 120,
+    },
+    {
+        id: 7,
+        image: 'img/cake.jpg',
+        title: 'Fruit Tart',
+        price: 60,
+    },
+    {
+        id: 8 ,
+        image: 'img/chs.jpg',
+        title: 'Japphanese CheaseCake',
+        price: 230,
+    },
+    {
+        id: 9,
+        image: 'img/muffin.jpg',
+        title: 'Muffin With Dark Chocolate',
+        price: 100,
+    },
+    {
+        id:10,
+        image: 'img/skakee.JPG',
+        title: 'Cake With fruit And Chocolate',
+        price: 230,
+    },
 ];
 
 const categories = [...new Set(product.map((item) => { return item }))]
